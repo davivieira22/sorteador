@@ -1,0 +1,84 @@
+* {
+    font-family: "Roboto Slab", serifa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.img-dado {
+    width: 583px;
+    margin-top: 120px;
+
+
+}
+
+h1 {
+    margin-bottom: 60px;
+    margin-left: 80px;
+    width: 200px;
+    color: rgba(255, 255, 255, 1);
+}
+
+p {
+    margin-bottom: 20px;
+    margin-left: 250px;
+    width: 299px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.input-esquerdo,
+.input-direito {
+    width: 330px;
+    height: 50px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 20px;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.input-direito,
+.input-esquerdo:hover {
+    opacity: 70%;
+}button:active{ opacity:0.5;}
+
+button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 342px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: blue;
+    margin-left: 200px;
+    margin-top: 40px;
+    filter: drop-shadow(0 30px 60px rgba(218, 17, 17, 0.35));
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.5px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
