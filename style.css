@@ -146,7 +146,7 @@ h2 {
     }
 
     p {
-        display: none;
+        visibility: hidden;
 
     }
 
