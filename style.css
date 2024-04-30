@@ -146,7 +146,9 @@ h2 {
     }
 
     p {
-        visibility: hidden;
+        margin-left: 40px;
+        color: red;
+        margin-bottom: 60px;
 
     }
 
@@ -162,9 +164,9 @@ h2 {
 
     button {
         width: 80%;
-        margin-left: 10%;
+        margin-left: 15%;
     }
-
+    
 
     body {
         width: 100%;
